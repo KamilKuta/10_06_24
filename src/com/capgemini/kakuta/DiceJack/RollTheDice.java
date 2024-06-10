@@ -4,11 +4,11 @@ import java.util.Random;
 
 public class RollTheDice {
     static Random randomNumber;
-    static int Number01;
+    static int number01;
 
     public static int rollTheDice() {
         randomNumber = new Random();
-        return Number01 = randomNumber.nextInt(1, 9);
+        return number01 = randomNumber.nextInt(1, 9);
     }
 
     public static int sumOfPickedNumbers(int number01, int number02, int number03) {
