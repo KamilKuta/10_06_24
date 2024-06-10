@@ -3,8 +3,12 @@ package com.capgemini.kakuta;
 public class ReturnValues {
 
     public static double calculateArea(double length, double width){
-        double area = length + width;
-        return area;
+        if (length < 0 || width < 0) {
+            System.out.println("INVALID DIMENSIONS");
+            System.exit(0);
+        }
+        double result = length + width;
+        return result;
     }
 
     public static String explainArea(String language){
