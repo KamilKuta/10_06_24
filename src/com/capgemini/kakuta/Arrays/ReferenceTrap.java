@@ -20,6 +20,7 @@ public class ReferenceTrap {
 
         //Solution to avoid reference TRAP is to create a new empty list and copy/paste old list into the new one by for loop
         String[] staff = {"Tommy", "Joel", "Ellie"};
+        //Could be the same size of array list or extended if we want to make a room for other variables.
         String[] newStaff = new String[5];
 
         for (int i = 0; i < staff.length; i++) {
